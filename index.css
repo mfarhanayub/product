@@ -1,0 +1,753 @@
+body{
+    margin: 0%;
+    padding: 0%;
+  
+}
+
+/* navbar */
+.navbar{
+  background-color:#242424 ;
+}
+.navbar-brand{
+    margin-left: 10%;
+    font-size: xx-large;
+    font-weight: normal;
+}
+.nav-item a{
+   font-size: medium;
+   font-weight: normal;
+   font-family: "poppins";
+   margin-right: 40px;
+   color: white;
+
+}
+.nav-item  a:hover{
+    color: rgba(255, 0, 0, 0.829);
+}
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-item {
+    font-size: medium;
+   font-weight: normal;
+   font-family: "poppins";
+   margin-right: 40px;  
+}
+.dropdown-item:hover{
+    background-color: black;
+}
+.button {
+    display: inline-flex;
+   padding: 10px 10px;
+    border: 2px solid rgba(255, 0, 0, 0.829);
+    margin: 20px 20px 20px 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'poppins';
+    font-weight: 900;
+    font-size: medium;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  #button-5 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-5 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#translate {
+  transform: rotate(50deg);
+  width: 100%;
+  height: 250%;
+  left: -200px;
+  top: -30px;
+  background: rgba(255, 0, 0, 0.829);
+  position: absolute;
+  transition: all .3s ease-Out;
+}
+
+#button-5:hover #translate {
+  left: 0;
+}
+
+#button-5:hover a {
+  color: white;
+}
+.button1 {
+  display: inline-flex;
+ padding: 4px 7px;
+  border: 2px solid rgba(255, 0, 0, 0.829);
+  margin: 0px 20px 20px 80px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family: 'poppins';
+  font-weight: 900;
+  font-size: medium;
+}
+a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+#button1-5 {
+position: relative;
+overflow: hidden;
+cursor: pointer;
+}
+
+#button1-5 a {
+position: relative;
+transition: all .45s ease-Out;
+}
+
+#translate {
+transform: rotate(50deg);
+width: 100%;
+height: 250%;
+left: -200px;
+top: -30px;
+background: rgba(255, 0, 0, 0.829);
+position: absolute;
+transition: all .3s ease-Out;
+}
+
+#button1-5:hover #translate {
+left: 0;
+}
+
+#button1-5:hover a {
+color: white;
+}
+
+.carousel-item::before {
+
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #1b1b1bae;
+  opacity: 1;
+height: 99%;
+}
+
+
+
+.carousel-caption h5 {
+ font-family: 'poppins';
+  font-size: 50px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+ 
+}
+
+.carousel-caption p {
+ font-family: 'poppins';
+
+}
+
+.slider-btn {
+  margin-top: 14px;
+
+}
+
+.back-video{
+  
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+  h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size:70px;
+    color: white;
+    
+  }
+  p{
+    font-family: 'poppins';
+    font-weight: normal;
+    font-size:medium;
+    color: white; 
+  }
+  .first{
+    background-color:#242424;
+    text-align: center;
+   margin-top: -8px;
+  }
+  hr{
+    color: rgba(255, 0, 0, 0.829);
+    border: solid 2px;
+   
+  }
+ 
+  .hf{
+    font-family: 'poppins';
+    font-weight: bolder;
+    font-size:40px;
+    color: white;
+    
+  }
+  h3{
+    font-family: 'poppins';
+    color: white;
+    font-weight: bold;
+    
+  }
+h3:hover{
+  color:rgba(255, 0, 0, 0.829) ;
+}
+
+
+  .button2{
+    display: inline-flex;
+   padding: 5px 5px;
+    border: 2px solidrgba(255, 0, 0, 0.829);
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'poppins';
+    font-weight: 900;
+    font-size: medium;
+   margin-left: 30%;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  #button2-5 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button2-5 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#translate {
+  transform: rotate(50deg);
+  width: 100%;
+  height: 250%;
+  left: -200px;
+  top: -30px;
+  background: rgba(255, 0, 0, 0.829);
+  position: absolute;
+  transition: all .3s ease-Out;
+}
+
+#button2-5:hover #translate {
+  left: 0;
+}
+
+#button2-5:hover a {
+  color: white;
+}
+ 
+  .ser1:hover{
+border-top: solid rgba(255, 0, 0, 0.829);
+  }
+  
+ .con{
+  font-family: "poppins";
+  font-size: 50px;
+ }
+/* 2nd sectin css */
+
+.section2{
+  background-color:#242424;
+}
+
+
+.colmd4{
+
+  margin-top: 15px;
+
+}
+
+
+.colmd4 h1{
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  
+}
+
+.colmd4 p{
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  
+}
+
+.colmd4 h3{
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  
+}
+.sub1{
+  width: 100%;
+  height: 550px;
+  background-color: #121212;
+  color: white;
+  
+ 
+}
+
+.sub1:hover{
+ border-top: solid rgba(255, 0, 0, 0.829);
+}
+.sub1 h4{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 25px;
+
+}
+.sub1 h5{
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 15px;
+ 
+
+}
+
+.sub1 h1{
+  text-align: center;
+  font-size: 35px;
+
+}
+
+.sub1 p{
+
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.sub2{
+  width: 100%;
+  height: 550px;
+  background-color:#121212;
+  color: white;
+ 
+}
+
+.sub2:hover{
+  border-top: solid rgba(255, 0, 0, 0.829);
+
+}
+
+.sub2 h4{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+
+}
+.sub2 h5{
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 15px;
+ 
+
+}
+
+.sub2 h1{
+  text-align: center;
+  font-size: 35px;
+
+}
+
+.sub2 p{
+
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.colbox4 img {
+
+  width: 100%;
+  height: 350px;
+}
+
+.no-gutter>[class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
+.fluid4 {
+  background-color: rgb(0, 0, 0);
+}
+
+.back-pics{
+  
+  background-size: contain;
+}
+
+.colbox4 h1{
+  font-family: 'poppins';
+  margin-top: 69px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  
+}
+
+
+.colbox4 p{
+  font-family: 'poppins';
+  text-align: center;
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  
+}
+
+.zoom-In{
+  
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+
+}
+
+.zoom-In:hover{
+  transform: scale(0.9);
+}
+
+
+
+
+ 
+
+/* form */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+/* RESET RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --white: #afafaf;
+  --red:rgba(255, 0, 0, 0.829);
+  --borderFormEls: hsl(0, 0%, 10%);
+  --bgFormEls: hsl(0, 0%, 14%);
+  --bgFormElsFocus: hsl(0, 7%, 20%);
+}
+
+a {
+  color: inherit;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+button,
+label {
+  cursor: pointer;
+}
+
+select {
+  appearance: none;
+}
+
+/* Remove native arrow on IE */
+select::-ms-expand {
+  display: none;
+}
+
+/*Remove dotted outline from selected option on Firefox*/
+/*https://stackoverflow.com/questions/3773430/remove-outline-from-select-box-in-ff/18853002#18853002*/
+/*We use !important to override the color set for the select on line 99*/
+select:-moz-focusring {
+  color: transparent !important;
+  text-shadow: 0 0 0 var(--white);
+}
+
+textarea {
+  resize: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font: 18px/1.5 "Open Sans", sans-serif;
+  background: var(--bodyColor);
+  color: var(--white);
+  margin: 1.5rem 0;
+}
+
+.container1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+
+/* FORM ELEMENTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.my-form h1 {
+  margin-bottom: 1.5rem;
+}
+
+.my-form li,
+.my-form .grid > *:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.my-form select,
+.my-form input,
+.my-form textarea,
+.my-form button {
+  width: 100%;
+  line-height: 1.5;
+  padding: 15px 10px;
+  border: 1px solid var(--borderFormEls);
+  color: var(--white);
+  background: var(--bgFormEls);
+  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
+    transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+.my-form textarea {
+  height: 170px;
+}
+
+.my-form ::placeholder {
+  color: inherit;
+  /*Fix opacity issue on Firefox*/
+  opacity: 1;
+}
+
+.my-form select:focus,
+.my-form input:focus,
+.my-form textarea:focus,
+.my-form button:enabled:hover,
+.my-form button:focus,
+.my-form input[type="checkbox"]:focus + label {
+  background: var(--bgFormElsFocus);
+}
+
+.my-form select:focus,
+.my-form input:focus,
+.my-form textarea:focus {
+  transform: scale(1.02);
+}
+
+.my-form *:required,
+.my-form select {
+  background-repeat: no-repeat;
+  background-position: center right 12px;
+  background-size: 15px 15px;
+}
+
+.my-form *:required {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);  
+}
+
+.my-form select {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/down.svg);
+}
+
+.my-form *:disabled {
+  cursor: default;
+  filter: blur(2px);
+}
+
+
+/* FORM BTNS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.my-form .required-msg {
+  display: none;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg)
+    no-repeat center left / 15px 15px;
+  padding-left: 20px;
+}
+
+.my-form .btn-grid {
+  position: relative;
+  overflow: hidden;
+  transition: filter 0.2s;
+}
+
+.my-form button {
+  font-weight: bold;
+}
+
+.my-form button > * {
+  display: inline-block;
+  width: 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.my-form button .back {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-110%, -50%);
+}
+
+.my-form button:enabled:hover .back,
+.my-form button:focus .back {
+  transform: translate(-50%, -50%);
+}
+
+.my-form button:enabled:hover .front,
+.my-form button:focus .front {
+  transform: translateX(110%);
+}
+
+
+/* CUSTOM CHECKBOX
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.my-form input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.my-form input[type="checkbox"] + label {
+  position: relative;
+  display: inline-block;
+  padding-left: 2rem;
+  transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+.my-form input[type="checkbox"] + label::before,
+.my-form input[type="checkbox"] + label::after {
+  content: '';
+  position: absolute;
+}
+
+.my-form input[type="checkbox"] + label::before {
+  left: 0;
+  top: 6px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--white);
+}
+
+.my-form input[type="checkbox"]:checked + label::before {
+  background: var(--red);
+}
+
+.my-form input[type="checkbox"]:checked + label::after {
+  left: 7px;
+  top: 7px;
+  width: 6px;
+  height: 14px;
+  border-bottom: 2px solid var(--white);
+  border-right: 2px solid var(--white);
+  transform: rotate(45deg);
+}
+
+
+/* FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+  font-size: 1rem;
+  text-align: right;
+  backface-visibility: hidden;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer span {
+  color: var(--red);
+}
+
+
+/* MQ
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (min-width: 600px) {
+  .my-form .grid {
+    display: grid;
+    grid-gap: 1.5rem;
+  }
+
+  .my-form .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .my-form .grid-3 {
+    grid-template-columns: auto auto auto;
+    align-items: center;
+  }
+
+  .my-form .grid > *:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .my-form .required-msg {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 541px) {
+  .my-form input[type="checkbox"] + label::before {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .my-form input[type="checkbox"]:checked + label::after {
+    top: 3px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* footer */
+ 
